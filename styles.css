@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-title-labels: #fff; 
+    --background-form: #008080;
+}
+
 .form{
     display: grid;
     place-content: center;
-    margin: 5rem 0;
+    margin: 2rem auto;
+    width: fit-content;
+    background-color: var(--background-form);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+h3,label{
+    color: var(--color-title-labels);
+}
+
+#title-form{
+    margin-bottom: 2rem;
 }
 
 fieldset{

@@ -13,6 +13,7 @@
 <body>
     <main>
         <form action="Calc_Sexo-Altura.php" method="post" class="form">
+            <h3 id="title-form">Descubra o sexo com maior altura</h3>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Entre com o sexo do usuário (User 1):</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" name="sexoUser1" required>
@@ -54,8 +55,8 @@
                 <input type="text" class="form-control" id="exampleFormControlInput1" name="alturaUser5" required>
             </div>
             <fieldset>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <button type="submit" class="btn btn-light">Enviar</button>
+                <button type="reset" class="btn btn-warning">Limpar</button>
             </fieldset>
         </form>
     </main>
