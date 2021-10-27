@@ -12,7 +12,7 @@
 
 <body>
     <main>
-        <form action="Calc_Sexo-Altura.php" method="post" class="form">
+        <form action="Calc-Sexo-Altura.php" method="post" class="form">
             <h3 id="title-form">Descubra o sexo com maior altura</h3>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Entre com o sexo do usuário (User 1):</label>
