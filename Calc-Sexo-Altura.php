@@ -15,10 +15,6 @@
 
     $sexo = array($_POST['sexoUser1'], $_POST['sexoUser2'], $_POST['sexoUser3'], $_POST['sexoUser4'], $_POST['sexoUser5']);
 
-    $alturaMaior = 0;
-    $qtdsexoMasculino = 0;
-    $qtdsexoFeminino = 0;
-
     for ($i = 0; $i < count($altura); $i++) {
         if ($sexo[$i] == "Masculino") {
             $qtdsexoMasculino += 1;
